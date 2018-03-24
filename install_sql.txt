@@ -1,0 +1,148 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.8.2
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Дек 24 2017 г., 21:15
+-- Версия сервера: 5.5.52
+-- Версия PHP: 5.3.29
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `aatulcof_tulcoffe`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `coffee_menu`
+--
+
+CREATE TABLE IF NOT EXISTS `coffee_menu` (
+  `id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `description` text NOT NULL,
+  `price` int(11) NOT NULL,
+  `created_at` date NOT NULL,
+  `created_by` int(11) NOT NULL,
+  `available` int(11) NOT NULL,
+  `count` int(11) NOT NULL,
+  `user_salary` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `coffee_menu`
+--
+
+INSERT INTO `coffee_menu` (`id`, `name`, `description`, `price`, `created_at`, `created_by`, `available`, `count`, `user_salary`) VALUES
+(1, 'Американо', 'saeco', 10, '2017-12-23', 0, 0, 0, 0.7),
+(2, 'Американо', 'saeco з молоком ', 12, '2017-12-23', 0, 0, 0, 0.7),
+(3, 'Американо П', 'Професійна', 10, '2017-12-23', 0, 0, 0, 0.7),
+(4, 'Американо П', 'Професійна з молоком ', 12, '2017-12-23', 0, 0, 0, 0.7),
+(5, 'Еспресо ', 'saeco', 10, '2017-12-23', 0, 0, 0, 0.7),
+(6, 'Еспресо ', 'з молоком saeco', 12, '2017-12-23', 0, 0, 0, 0.7),
+(7, 'Еспресо П', 'Професійна', 10, '2017-12-23', 0, 0, 0, 0.7),
+(8, 'Еспресо П', 'з молоком Професійна', 12, '2017-12-23', 0, 0, 0, 0.7),
+(9, 'Капучіно ', 'saeco ', 14, '2017-12-23', 0, 0, 0, 1.5),
+(10, 'Капучіно ', 'Професійна', 14, '2017-12-23', 0, 0, 0, 1.5),
+(11, 'Лате ', 'Професійна', 17, '2017-12-24', 0, 0, 0, 2),
+(12, 'Лате ', 'Saeco', 17, '2017-12-24', 0, 0, 0, 2),
+(13, 'Дитяче капучино', '', 14, '2017-12-24', 0, 0, 0, 1.5),
+(14, 'Чай', '', 8, '0000-00-00', 0, 0, 0, 0.7);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `sell_product`
+--
+
+CREATE TABLE IF NOT EXISTS `sell_product` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `product_id` int(10) DEFAULT NULL,
+  `product_count` int(10) DEFAULT NULL,
+  `product_price` int(10) DEFAULT NULL,
+  `sell_date` varchar(45) NOT NULL,
+  `sell_date_str` varchar(45) NOT NULL,
+  `user_salary` float NOT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=424 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `user`
+--
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+  `user` varchar(30) NOT NULL,
+  `mail` varchar(30) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  `admin` int(11) NOT NULL,
+  PRIMARY KEY (`id_user`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+--
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id_user`, `user`, `mail`, `password`, `admin`) VALUES
+(1, 'Admin', 'mail', '1ea7ddd691a52f3504b577b1023f4cc7', 1),
+(2, 'Alina', 'alina2657234', 'f303946488fde3a27850c4cb3353468e', 0),
+(3, 'Oksana', 'oksana2657234', 'd4a4292f5ef2527491e82f21b891e73d', 0);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+// v2222
+
+ALTER TABLE  `coffee_menu` ADD  `type_coffee_machine` VARCHAR( 255 ) NOT NULL AFTER  `user_salary`;
+ALTER TABLE  `coffee_menu` ADD  `has_bonus` int(10) DEFAULT NULL AFTER  `type_coffee_machine`;
+
+ALTER TABLE  `sell_product` ADD  `type_coffee_machine` VARCHAR( 255 ) NOT NULL AFTER  `user_id`;
+ALTER TABLE  `sell_product` ADD  `has_bonus` int(10) DEFAULT NULL AFTER  `type_coffee_machine`;
+
+CREATE TABLE IF NOT EXISTS `coffee_menu` (
+  `id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `description` text NOT NULL,
+  `price` int(11) NOT NULL,
+  `created_at` date NOT NULL,
+  `created_by` int(11) NOT NULL,
+  `available` int(11) NOT NULL,
+  `count` int(11) NOT NULL,
+  `user_salary` float NOT NULL,
+  `type_coffee_machine` varchar(255) NOT NULL,
+  `has_bonus` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `coffee_menu`
+--
+
+INSERT INTO `coffee_menu` (`id`, `name`, `description`, `price`, `created_at`, `created_by`, `available`, `count`, `user_salary`, `type_coffee_machine`, `has_bonus`) VALUES
+(1, 'Американо', 'saeco', 10, '2017-12-23', 0, 0, 0, 0.7, 'saeco', NULL),
+(2, 'Американо', 'saeco з молоком ', 12, '2017-12-23', 0, 0, 0, 0.7, 'saeco', NULL),
+(3, 'Американо П', 'Професійна', 10, '2017-12-23', 0, 0, 0, 0.7, 'professional', NULL),
+(4, 'Американо П', 'Професійна з молоком ', 12, '2017-12-23', 0, 0, 0, 0.7, 'professional', NULL),
+(5, 'Еспресо ', 'saeco', 10, '2017-12-23', 0, 0, 0, 0.7, 'saeco', NULL),
+(6, 'Еспресо ', 'з молоком saeco', 12, '2017-12-23', 0, 0, 0, 0.7, 'saeco', NULL),
+(7, 'Еспресо П', 'Професійна', 10, '2017-12-23', 0, 0, 0, 0.7, 'professional', NULL),
+(8, 'Еспресо П', 'з молоком Професійна', 12, '2017-12-23', 0, 0, 0, 0.7, 'professional', NULL),
+(9, 'Капучіно ', 'saeco ', 14, '2017-12-23', 0, 0, 0, 1.5, 'saeco', 1),
+(10, 'Капучіно ', 'Професійна', 14, '2017-12-23', 0, 0, 0, 1.5, 'professional', 1),
+(11, 'Лате ', 'Професійна', 17, '2017-12-24', 0, 0, 0, 2, 'professional', NULL),
+(12, 'Лате ', 'Saeco', 17, '2017-12-24', 0, 0, 0, 2, 'saeco', NULL),
+(13, 'Дитяче капучино', '', 14, '2017-12-24', 0, 0, 0, 1.5, '', 1),
+(14, 'Чай', '', 8, '2017-12-26', 0, 0, 0, 0.7, '', NULL);

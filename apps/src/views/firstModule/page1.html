@@ -1,0 +1,41 @@
+<div class="padded">
+  <!--
+     <div>
+    <a class="btn btn-default" [routerLink]="['/View/SurveyApp#/path2']">From</a>
+    <a class="btn btn-primary" [routerLink]="['/View/SurveyApp#/path1']">Knowledge Base</a>
+    <hr>
+  </div>
+
+      -->
+
+  <div style="margin-left:15px;" class="page-header">
+    <h2>{{'Knowledge Base'}}</h2>
+  </div>
+  <div class="main-content">
+    <div class="controls col-lg-12">
+      <div class="input-group col-lg-7 col-xs-7 col-sm-7">
+        <input id="searshField" class="form-control" type="text" [(ngModel)]="search" (ngModelChange)="getDataQBase()" [ngModelOptions]="{standalone: true}">
+        <span class="input-group-btn">
+          <button class="btn btn-info" (click)="getDataQBase()">
+            {{'Search'}}
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="controls col-lg-12">
+      <ul *ngFor="let item of items">
+        <li>
+          <div style="border: 1px solid #ede1e1; margin:5px; padding:5px">
+            <div>{{item.Title}}</div>
+            <span>{{'view'}}</span>
+            <span>{{item.ViewCount}}</span>.
+            <span>{{'rating'}}</span>
+            <span>{{item.AverageRating}}</span>.
+            <span>{{'data'}}</span>
+            <span>{{item.LastModifiedDate}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

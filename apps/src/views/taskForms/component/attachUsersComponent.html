@@ -1,0 +1,9 @@
+<label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <span>{{'Provide List Of The Recipients (Required)'}}</span>
+</label>
+<div class="controls col-xs-6 col-sm-6 col-md-6 col-lg-6">
+  <input placeholder="Filter" class="form-control" type="text" [(ngModel)]="query" (ngModelChange)="getUsersForQuestion($event)">
+  <ol *ngFor="let item of users">
+    <li [class.selected]="item.attach"><a class="a-link-text-decoration-none" (click)="attachUser(item)">{{item.DisplayName}}</a></li>
+  </ol>
+</div>

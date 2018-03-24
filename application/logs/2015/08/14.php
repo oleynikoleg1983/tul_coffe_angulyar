@@ -1,0 +1,553 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2015-08-14 00:26:22 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: data ~ APPPATH\views\admin\v_index.php [ 28 ] in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:22 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_index.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 28, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reg))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:26 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: data ~ APPPATH\views\admin\v_index.php [ 28 ] in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:26 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_index.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 28, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reg))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:32 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: data ~ APPPATH\views\admin\v_index.php [ 28 ] in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:32 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_index.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 28, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reg))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:38 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: data ~ APPPATH\views\admin\v_index.php [ 28 ] in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 00:26:38 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_index.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 28, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reg))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\kohana\application\views\admin\v_index.php:28
+2015-08-14 06:24:03 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column 'quantity' in 'field list' [ SELECT p.id, id_image, name, price, description, quantity, i.url  
+                FROM product p LEFT JOIN  images i ON p.id_image=i.id
+                    WHERE id_category=17 ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:03 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT p.id, id...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(33): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(20): Model_Site_Getdata->get_product('17')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:05 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column 'quantity' in 'field list' [ SELECT p.id, id_image, name, price, description, quantity, i.url  
+                FROM product p LEFT JOIN  images i ON p.id_image=i.id
+                    WHERE id_category=24 ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:05 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT p.id, id...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(33): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(20): Model_Site_Getdata->get_product('24')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:05 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column 'quantity' in 'field list' [ SELECT p.id, id_image, name, price, description, quantity, i.url  
+                FROM product p LEFT JOIN  images i ON p.id_image=i.id
+                    WHERE id_category=25 ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:05 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT p.id, id...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(33): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(20): Model_Site_Getdata->get_product('25')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:06 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column 'quantity' in 'field list' [ SELECT p.id, id_image, name, price, description, quantity, i.url  
+                FROM product p LEFT JOIN  images i ON p.id_image=i.id
+                    WHERE id_category=53 ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 06:24:06 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT p.id, id...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(33): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(20): Model_Site_Getdata->get_product('53')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:11:18 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(1, 233, 5, 1439554277) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:11:18 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '1', '5', 1439554277)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:11:22 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(1, 233, 5, 1439554281) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:11:22 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '1', '5', 1439554281)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:02 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(1, 233, 5, 1439554382) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:02 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '1', '5', 1439554382)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:05 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(1, 233, 5, 1439554385) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:05 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '1', '5', 1439554385)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:08 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(1, 233, 5, 1439554388) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:13:08 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '1', '5', 1439554388)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:14:02 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(10, 233, 5, 1439554441) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:14:02 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '10', '5', 1439554441)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:14:04 --- CRITICAL: Database_Exception [ 1146 ]: Table 'kohana.sell_product2' doesn't exist [ CALL  proc_sell(10, 233, 5, 1439554443) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:14:04 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(3, 'CALL  proc_sell...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Site\Getdata.php(51): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Site\Getajax.php(39): Model_Site_Getdata->sell_product('233', '10', '5', 1439554443)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Site_Getajax->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Site_Getajax))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 07:56:17 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: languages ~ APPPATH\views\admin\v_index.php [ 27 ] in Z:\home\localhost\kohana\application\views\admin\v_index.php:27
+2015-08-14 07:56:17 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_index.php(27): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 27, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\kohana\application\views\admin\v_index.php:27
+2015-08-14 08:11:25 --- CRITICAL: ErrorException [ 2 ]: date() expects at least 1 parameter, 0 given ~ APPPATH\views\admin\v_reports.php [ 19 ] in file:line
+2015-08-14 08:11:25 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'date() expects ...', 'Z:\home\localho...', 19, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(19): date()
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:17:35 --- CRITICAL: ErrorException [ 2 ]: idate() expects at least 1 parameter, 0 given ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:17:35 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'idate() expects...', 'Z:\home\localho...', 36, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(36): idate()
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:18:01 --- CRITICAL: ErrorException [ 2 ]: idate() [function.idate]: idate format is one char ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:18:01 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'idate() [<a hre...', 'Z:\home\localho...', 36, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(36): idate('2015-08-14')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:20:23 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:20:23 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 10:20:34 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:20:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 10:20:45 --- CRITICAL: ErrorException [ 2048 ]: mktime() [function.mktime]: You should be using the time() function instead ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:20:45 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2048, 'mktime() [<a hr...', 'Z:\home\localho...', 36, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(36): mktime()
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:26:34 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\admin\v_reports.php [ 41 ] in file:line
+2015-08-14 10:26:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 10:26:57 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\admin\v_reports.php [ 41 ] in file:line
+2015-08-14 10:26:57 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 10:30:09 --- CRITICAL: ErrorException [ 2 ]: date() expects parameter 2 to be long, string given ~ APPPATH\views\admin\v_reports.php [ 41 ] in file:line
+2015-08-14 10:30:09 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'date() expects ...', 'Z:\home\localho...', 41, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(41): date('1439566209', 'd.m.Y')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:30:26 --- CRITICAL: ErrorException [ 8 ]: Use of undefined constant d - assumed 'd' ~ APPPATH\views\admin\v_reports.php [ 41 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:41
+2015-08-14 10:30:26 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(41): Kohana_Core::error_handler(8, 'Use of undefine...', 'Z:\home\localho...', 41, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:41
+2015-08-14 10:32:24 --- CRITICAL: ErrorException [ 8 ]: A non well formed numeric value encountered ~ APPPATH\views\admin\v_reports.php [ 41 ] in file:line
+2015-08-14 10:32:24 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(8, 'A non well form...', 'Z:\home\localho...', 41, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(41): date('', '2015-08-14')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:34:56 --- CRITICAL: ErrorException [ 8 ]: A non well formed numeric value encountered ~ APPPATH\views\admin\v_reports.php [ 41 ] in file:line
+2015-08-14 10:34:56 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(8, 'A non well form...', 'Z:\home\localho...', 41, Array)
+#1 Z:\home\localhost\kohana\application\views\admin\v_reports.php(41): date('', '2015-08-14')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#4 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#7 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#15 {main} in file:line
+2015-08-14 10:37:47 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_ECHO ~ APPPATH\views\admin\v_reports.php [ 36 ] in file:line
+2015-08-14 10:37:47 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 10:38:07 --- CRITICAL: ErrorException [ 8 ]: Use of undefined constant php - assumed 'php' ~ APPPATH\views\admin\v_reports.php [ 36 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:36
+2015-08-14 10:38:07 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(36): Kohana_Core::error_handler(8, 'Use of undefine...', 'Z:\home\localho...', 36, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:36
+2015-08-14 10:46:33 --- CRITICAL: ErrorException [ 8 ]: Undefined index: date1 ~ APPPATH\views\admin\v_reports.php [ 43 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:43
+2015-08-14 10:46:33 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(43): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 43, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:43
+2015-08-14 10:52:38 --- CRITICAL: ErrorException [ 8 ]: Undefined index: user_name ~ APPPATH\views\admin\v_reports.php [ 49 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:49
+2015-08-14 10:52:38 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(49): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 49, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:49
+2015-08-14 10:53:43 --- CRITICAL: ErrorException [ 8 ]: Undefined index: user_name ~ APPPATH\views\admin\v_reports.php [ 49 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:49
+2015-08-14 10:53:43 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(49): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 49, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:49
+2015-08-14 10:56:47 --- CRITICAL: ErrorException [ 8 ]: Undefined index: id_user ~ APPPATH\classes\Controller\Admin\Reports.php [ 40 ] in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:40
+2015-08-14 10:56:47 --- DEBUG: #0 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(40): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 40, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:40
+2015-08-14 11:03:47 --- CRITICAL: ErrorException [ 1 ]: Call to undefined method Model_Admin_Getdata::get_reports() ~ APPPATH\classes\Controller\Admin\Reports.php [ 46 ] in file:line
+2015-08-14 11:03:47 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 11:03:55 --- CRITICAL: ErrorException [ 1 ]: Call to undefined method Model_Admin_Getdata::get_reports() ~ APPPATH\classes\Controller\Admin\Reports.php [ 46 ] in file:line
+2015-08-14 11:03:55 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 11:14:16 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_VARIABLE, expecting T_FUNCTION ~ APPPATH\classes\Controller\Admin\Reports.php [ 49 ] in file:line
+2015-08-14 11:14:16 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-08-14 11:14:50 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_user=0' at line 2 [ SELECT first_price, price, product_name, quantity FROM sell_product
+             WHERE 1439528400>1439554347 AND date ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:14:50 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(46): Model_Admin_Getdata->get_reports(1439528400, 1439528400, 'AND id_user=0')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:15:32 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_user=0' at line 2 [ SELECT first_price, price, product_name, quantity FROM sell_product
+             WHERE 1439528400>date AND date ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:15:32 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(46): Model_Admin_Getdata->get_reports(1439528400, 1439528400, 'AND id_user=0')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:16:23 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_user=0' at line 2 [ SELECT first_price, price, product_name, quantity FROM sell_product
+             WHERE date>1439528400 AND date ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:16:23 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(46): Model_Admin_Getdata->get_reports(1439528400, 1439528400, 'AND id_user=0')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:21:35 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: array_reports ~ APPPATH\classes\Controller\Admin\Reports.php [ 52 ] in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:52
+2015-08-14 11:21:35 --- DEBUG: #0 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(52): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 52, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:52
+2015-08-14 11:24:52 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:24:52 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(47): Model_Admin_Getdata->get_reports(1439355600, 1440133200, 'AND id_user=0')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:25:37 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:25:37 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(47): Model_Admin_Getdata->get_reports(1439355600, 1439614800, 'AND id_user=0')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 11:41:54 --- CRITICAL: ErrorException [ 8 ]: Undefined index: date1 ~ APPPATH\views\admin\v_reports.php [ 43 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:43
+2015-08-14 11:41:54 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(43): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 43, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:43
+2015-08-14 11:52:05 --- CRITICAL: ErrorException [ 8 ]: Undefined index: i ~ APPPATH\classes\Controller\Admin\Reports.php [ 51 ] in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:51
+2015-08-14 11:52:05 --- DEBUG: #0 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(51): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\localho...', 51, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#4 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php:51
+2015-08-14 12:06:31 --- CRITICAL: ErrorException [ 8 ]: Uninitialized string offset: 0 ~ APPPATH\views\admin\v_reports.php [ 40 ] in Z:\home\localhost\kohana\application\views\admin\v_reports.php:40
+2015-08-14 12:06:31 --- DEBUG: #0 Z:\home\localhost\kohana\application\views\admin\v_reports.php(40): Kohana_Core::error_handler(8, 'Uninitialized s...', 'Z:\home\localho...', 40, Array)
+#1 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#2 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\kohana\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 Z:\home\localhost\kohana\application\views\admin\v_index.php(37): Kohana_View->__toString()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\View.php(62): include('Z:\home\localho...')
+#6 Z:\home\localhost\kohana\system\classes\Kohana\View.php(359): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#11 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\kohana\application\views\admin\v_reports.php:40
+2015-08-14 12:21:50 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND date ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 12:21:50 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(48): Model_Admin_Getdata->get_reports(false, 86399, 'AND id_user=1')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 12:22:23 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND date ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251
+2015-08-14 12:22:23 --- DEBUG: #0 Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT first_pr...', false, Array)
+#1 Z:\home\localhost\kohana\application\classes\Model\Admin\Getdata.php(92): Kohana_Database_Query->execute()
+#2 Z:\home\localhost\kohana\application\classes\Controller\Admin\Reports.php(48): Model_Admin_Getdata->get_reports(false, 86399, 'AND id_user=1')
+#3 Z:\home\localhost\kohana\system\classes\Kohana\Controller.php(84): Controller_Admin_Reports->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Reports))
+#6 Z:\home\localhost\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\localhost\kohana\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\localhost\kohana\index.php(118): Kohana_Request->execute()
+#9 {main} in Z:\home\localhost\kohana\modules\database\classes\Kohana\Database\Query.php:251

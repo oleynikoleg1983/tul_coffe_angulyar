@@ -1,0 +1,28 @@
+<div class="padded">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+      <ul>
+        <li *ngFor="let item of allRequests">
+          <button title="{{item.title}}" class="btn btn-info btn-sm  form-tree-element" (click)="item.showChild = !item.showChild">
+            <span *ngIf="!item.showChild" class="fa fa-arrow-circle-up btn-pu"></span>
+            <span *ngIf="item.showChild" class="fa fa-arrow-circle-down"></span>
+            <span class="">{{item.title}}</span>
+          </button>
+          <ul *ngFor="let data of item.child">
+            <li  *ngIf="item.showChild">
+              <button title="{{data.title}}" class="btn btn-info btn-sm  form-tree-element" (click)="onComponent(data.formType)">
+                <span class="">{{data.title}}</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+      <request-other-software *ngIf="formType == 'requestOtherSoftware'"></request-other-software>
+      <request-other-additional-hardware *ngIf="formType == 'requestOtherAdditionalHardware'"></request-other-additional-hardware>
+      <switch-email-recipient-from-digest-notification-list *ngIf="formType == 'onOfemailRecipientFromDigestNotificationList'"></switch-email-recipient-from-digest-notification-list>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+</div>

@@ -1,0 +1,63 @@
+<div class="main-content">
+  <form class="form-horizontal">
+    <div class="form-group">
+
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide Information About Software Name (Required)'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="otherSoftwareForm.softwareName" name="title" type="text"></textarea>
+        <br>
+      </div>
+    
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide Information About Software Version (Required)'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="otherSoftwareForm.softwareVersion" name="title" type="text"></textarea>
+        <br>
+      </div>
+     
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide Information About Software Edition'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="otherSoftwareForm.softwareEdition" name="title" type="text"></textarea>
+        <br>
+      </div>
+    
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide Information About Software Language (Required)'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="otherSoftwareForm.softwareLanguage" name="title" type="text"></textarea>
+        <br>
+      </div>
+     
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'This Software For Testing Or Production Needs? (Required)'}}</span>
+      </label>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <select [ngModel]="otherSoftwareForm.type" class="form-control form-control-select" (ngModelChange)="setType($event)" [ngModelOptions]="{standalone: true}">
+          <option *ngFor="let type of types" [ngValue]="type" value="{{type}}">
+            {{type}}
+          </option>
+        </select>
+        <br>
+      </div>
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide Reason And Additional Information'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="otherSoftwareForm.reasonAndAdditionalInformation" name="title" type="text"></textarea>
+        <br>
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="pull-right">
+          <button class="btn btn-info" (click)="saveItem()">{{'Create'}}</button>
+          <button class="btn btn-default" (click)="cancel()">{{'Cancel'}}</button>
+        </div>
+      </div>
+    </div>
+</form>
+</div>

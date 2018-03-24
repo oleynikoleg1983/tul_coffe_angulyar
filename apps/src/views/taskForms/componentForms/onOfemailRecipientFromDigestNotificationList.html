@@ -1,0 +1,39 @@
+<div class="main-content">
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Add Or Remove Recipients? (Required)'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <select [ngModel]="switchMailRecipientFromDigestNotificationList.action" class="form-control form-control-select" (ngModelChange)="setAction($event)" [ngModelOptions]="{standalone: true}">
+          <option *ngFor="let action of actions" [ngValue]="type" value="{{action}}">
+            {{action}}
+          </option>
+        </select>
+        <br>
+      </div>
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide The Name Of The Digest (Required)'}}</span>
+      </label>
+      <div class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <textarea class="form-control" [(ngModel)]="switchMailRecipientFromDigestNotificationList.provideNameDigest" name="title" type="text"></textarea>
+        <br>
+      </div>
+      <attach-users (onSelectedChanged)="onSelectStructure($event)"></attach-users>
+      <!--
+      <label class="controls col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span>{{'Provide List Of The Recipients (Required)'}}</span>
+      </label>
+          -->
+      <!--  create this 16.03.18
+      this will make the user selection component-->
+     
+      <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="pull-right">
+          <button class="btn btn-info" (click)="saveItem()">{{'Create'}}</button>
+          <button class="btn btn-default" (click)="cancel()">{{'Cancel'}}</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,55 @@
+<div class="main-content">
+  <div class="float-sm-left col-xs-6 col-sm-6 col-md-4 col-lg-4" *ngFor="let item of products">
+    <a (click)="choiceProduct(item); modal.open('lg'); "  type="button" class="btn btn-info btn-lg menu-sell-coffee-element">
+      <h2><span *ngIf="item && item.name">{{item.name}}</span></h2>
+      <span *ngIf="item && item.description">
+        <b>{{item.description}}</b>
+      </span>
+      <div *ngIf="item && item.price">
+        <span>Цена:</span>{{item.price}}
+      </div>
+    </a>
+  </div>
+  <modal #modal>
+    <modal-header [show-close]="false">
+      <h1 class="modal-title modal-text-color">
+        <b>
+          <span *ngIf="choiceProductElement && choiceProductElement.name">
+            {{choiceProductElement.name}}
+          </span>
+        </b>
+      </h1>
+    </modal-header>
+    <modal-body>
+      <button (click)="modal.close()" class="pull-right btn btn-link remove-modal-button">
+        <span style="font-size: 45px;" class="glyphicon glyphicon-remove modal-text-color"></span>
+      </button>
+      <button type="button" (click)="reCount('add')" class="btn btn-info btn-lg element-in-moudal-menu">
+        <span style="margin-top: 5px;" class="glyphicon glyphicon-plus"></span>
+      </button>
+
+      <button type="button" (click)="sellProduct()" class="btn btn-success btn-lg element-in-moudal-menu">
+        <span style="font-size: 55px; width:80px" class="glyphicon glyphicon-ok"></span>
+      </button>
+      <b class="num-element-in-moudal-menu">
+        <span  *ngIf="choiceProductElement && choiceProductElement.count">
+           {{choiceProductElement.count}} {{'шт.'}}
+        </span>
+      </b>
+      <br>
+      <button type="button" (click)="reCount('dell')" class="btn btn-info btn-lg element-in-moudal-menu">
+        <span style="margin-top: 5px;" class="glyphicon glyphicon-minus"></span>
+      </button>
+      <span *ngIf="choiceProductElement && choiceProductElement.count && choiceProductElement.price" class="result-text">
+        {{'Сума:'}} {{choiceProductElement.price * choiceProductElement.count}} {{'грн.'}}
+      </span>
+
+    </modal-body>
+  </modal>
+</div>
+
+
+
+
+<!--
+-->
